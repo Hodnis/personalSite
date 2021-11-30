@@ -1,0 +1,177 @@
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+p {
+  color: #40514E;
+  line-height: 2;
+}
+
+hr {
+  color: #ebecf1;
+  width: 4%;
+  border-style: dotted;
+  border-top: 10px;
+  border-width: 10px;
+}
+hr:hover {
+  color: grey;
+  width: 10%;
+  border-style: dashed;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  background-color: #EAF6F6;
+}
+
+.middle-container {
+  position: relative;
+  argin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  position: relative;
+  padding: 50px 0 20px;
+}
+
+.skills {
+  padding-top: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  image-resolution: 25%;
+}
+
+.contact-me {
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+
+.profile {
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+
+
+h1 {
+  margin: 50px auto 0 auto;
+  /* Her kan man skrive margin: x for hele. x x for top&bottom + left&right
+  x x x for top + left&right + bottom
+  eller da x x x x, som sier seg selv.
+  */
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  /*
+  fontsize som er skrevet med % blir dynamisk.
+  Her er det 90px, omgjort til %. 100%=16px, så da blir det 90/16,
+  som er 5,625. Gang dette med 100, så får vi 562.5.
+  16px = 100% = 1em . "rem" gjør at vi ikke blir påvirket av parent-instillinger.
+  Tips er da å bruke "rem"
+  */
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #66BFBF;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+
+
+
+.prospan {
+  text-decoration: underline;
+}
+
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.dragon-img {
+  width: 25%;
+}
+
+.coding-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.goblin-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn-link {
+  color: green;
+}
+
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+.copyright-signature {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999e);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999e);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999e);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999e);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
